@@ -1,0 +1,260 @@
+1,胸椎,thoracic vertebrae
+2,頚椎,cervical vertebrae
+3,仙椎,sacral vertebrae
+4,尾椎,coccygeal vertebrae
+5,椎体,vertebral body
+6,椎孔,vertebral foramen
+7,椎弓根,pedicle
+8,下椎切痕,inferior vertebral notch
+9,棘突起,spinous process
+10,横突孔,foramen transversarium
+11,棘突起,obturator foramen
+12,横突起,transverse process
+13,椎体,vertebral body
+14,上関節突起,superior articular processes
+15,椎弓板,lamina
+16,椎弓根,pedicle
+17,横突起,transverse process
+18,椎孔,vertebral foramen
+19,椎体,vertebral body
+20,棘突起,spinous process
+21,肋骨突起,costal process
+22,尾骨角,coccygeal cornu
+23,前仙骨孔,anterior sacral foramina
+24,寛骨との関節面,facet for articulation with pelvic bone
+25,棘突起,spinous process
+26,肋骨,rib
+27,椎間円板部,location of intervertebral disc
+28,椎間円板,intervertebral disc
+29,椎体,vertebral body
+30,棘突起,spinous process
+31,浮遊肋,floating ribs
+32,真肋,true ribs
+33,仮肋,false ribs
+34,肋軟骨,costal cartilage
+35,肋骨溝,costal groove
+36,肋骨結節,tubercle
+37,鎖骨下動脈溝,groove for subclavian artery
+38,鎖骨下静脈溝,groove for subclavian vein
+39,肋骨結節,tubercle
+40,肋軟骨,costal cartilage
+41,肋骨頭関節面,head with articular facet
+42,剣状突起,xiphoid process
+43,胸骨角,sternal angle
+44,頚切痕,jugular notch
+45,鎖骨との関節部,articular site for clavicle
+46,横突肋骨窩,costal faceｔ on transverse process
+47,上肋骨窩,superior costal facet
+48,胸骨体,body of sternum
+49,下肋骨窩,inferior costal facet
+50,下関節突起,inferior articular process
+51,椎間円板,intervertebral disc
+52,椎体,vertebral body
+53,恥骨結合,pubic symphysis
+54,坐骨結節,ischial tuberosity
+55,閉鎖孔,obturator foramen
+56,仙骨,sacrum
+57,尾骨,coccyx
+58,骨盤上口,pelvic inlet
+59,大坐骨切痕,greater sciatic notch
+60,上前腸骨棘,anterior superior iliac spine
+61,恥骨結節,pubic tubercle
+62,恥骨,pubis
+63,腸骨,ilium
+64,坐骨棘,ischial spine
+65,大腿骨,femur
+66,脛骨,tibia
+67,腓骨,fibula
+68,膝蓋骨,patella
+69,寛骨臼切痕,acetabular notch
+70,寛骨臼窩,acetabular fossa
+71,月状面,lunate surface
+72,恥骨,pubis
+73,坐骨,ischium
+74,大転子,greater trochanter
+75,小転子,lesser trochanter
+76,大腿骨頭,head
+77,殿筋粗面,gluteal tuberosity
+78,恥骨筋線,pectineal line
+79,閉鎖孔,obturator foramen
+80,恥骨,pubis
+81,大腿骨頚,neck of femur
+82,大腿骨頭,head of femur
+83,大転子,greater trochanter
+84,転子間線,intertrochanteric line
+85,仙骨,sacrum
+86,寛骨臼,acetabulum
+87,第四腰椎椎体,body of liv vertebra
+88,腸骨,ilium
+89,大腿骨頚,neck of femur
+90,内側上顆,medial epicondyle
+91,外側上顆,lateral epicondyle
+92,脛骨外側顆,lateral tibial condyle
+93,大腿骨外側顆,lateral femoral condyle
+94,顆間隆起,intercondylar eminence
+95,大腿骨,femur
+96,膝蓋骨,patella
+97,外果,lateral malleolus
+98,内果,medial malleolus
+99,外果窩,malleolar fossa
+100,前縁,anterior border
+101,距骨,talus
+102,楔状骨,cuneiforms
+103,末節骨,distal phalanx
+104,中節骨,middle phalanx
+105,内側楔状骨,medial cuneiform
+106,踵骨,calcaneus
+107,舟状骨,navicular
+108,中間の足根骨,intermediate tarsal bone
+109,舟状骨,navicular
+110,中足骨,metatarsals
+111,立方骨,cuboid
+112,趾節骨,phalanges
+113,腓骨,fibula
+114,舟状骨,navicular
+115,踵骨,calcaneus
+116,肩甲骨,scapula
+117,鎖骨,clavicle
+118,手根骨,carpals
+119,中手骨,metacarpals
+120,指節骨,phalanges
+121,尺骨,ulna
+122,上腕骨,humerus
+123,円錐靭帯結節,conoid tubercle
+124,菱形靭帯線,trapezoid line
+125,肩峰,acromion
+126,烏口突起,coracoid process
+127,関節窩,glenoid cavity
+128,肩甲切痕,suprascapular notch
+129,棘下窩,infraspinous fossa
+130,結節間溝,intertubercular sulcus
+131,結節間溝,intertubercular sulcus
+132,外科頚,surgical neck
+133,大結節,greater tubercle
+134,三角筋粗面,deltoid tuberosity
+135,下方の面,inferior facet
+136,解剖頚,anatomical neck
+137,胸骨角,sternal angle
+138,左鎖骨,left clavicle
+139,胸骨柄,manubrium of sternum
+140,肩鎖関節,acromioclavicular joint
+141,上腕骨,humerus
+142,肩峰,acromion
+143,鎖骨,clavicle
+144,関節窩,glenoid cavity
+145,上腕骨頭,head of humerus
+146,肩峰,acromion
+147,上腕骨滑車,trochlea
+148,橈骨神経溝,radial groove
+149,大結節,greater tubercle
+150,鈎突窩,coronoid fossa
+151,肘頭窩,olecranon fossa
+152,内側上顆,medial epicondyle
+153,外側上顆,lateral epicondyle
+154,上腕骨滑車,trochlea
+155,上腕骨小頭,capitulum
+156,肘頭,olecranon
+157,鈎状突起,coronoid process
+158,橈骨粗面,radial tuberosity
+159,橈骨切痕,radial notch
+160,尺骨粗面,tuberosity of ulna
+161,尺骨切痕,ulnar notch
+162,橈骨の茎状突起,radial styloid process
+163,橈骨頭,radial head
+164,橈骨粗面,radial tuberosity
+165,斜線,oblique line
+166,背側結節,dorsal tubercle
+167,月状骨との関節面,facet for articulation with lunate bone
+168,尺骨の茎状突起,ulnar styloid process
+169,滑車切痕,trochlear notch
+170,尺骨,ulna
+171,橈骨,radius
+172,上腕骨小頭,capitulum
+173,肘頭,olecranon
+174,鈎状突起,coronoid process
+175,内側上顆,medial epicondyle
+176,上腕骨,humerus
+177,橈骨粗面,radial tuberosity
+178,尺骨,ｕlna
+179,橈骨,radius
+180,舟状骨,scaphoid
+181,大菱形骨,trapezium
+182,豆状骨,pisiform
+183,指節骨,phalanges
+184,中手骨,metacarpals
+185,月状骨,lunate
+186,小菱形骨,trapezoid
+187,舟状骨,scaphoid
+188,有頭骨,capitate
+189,月状骨,lunate
+190,尺骨,ulna
+191,中手骨,metacarpals
+192,関節円板,articular disc
+193,手根骨,carpal bones
+194,三角骨,triquetrum
+195,月状骨,lunate
+196,鼻骨,nasal bone
+197,眼窩下孔,infra-orbital foramen
+198,眉弓,superciliary arch
+199,オトガイ孔,mental foramen
+200,上顎骨,maxilla
+201,鼻稜,nasal crest
+202,下顎骨歯槽部,alveolar part of mandible
+203,梨状口,piriform aperture
+204,前頭骨,frontal bone
+205,眉間,glabella
+206,下顎骨,mandible
+207,オトガイ結節,mental tubercle
+208,鼻根点 ,nasion
+209,冠状縫合,coronal suture
+210,オトガイ孔,mental foramen
+211,眼窩下孔,infra-orbital foramen
+212,上眼窩裂,superior orbital fissure
+213,下顎角,angle of mandible
+214,頬骨,zygomatic bone
+215,涙骨,lacrimal bone
+216,側頭骨鼓室部,tympanic part of temporal bone
+217,側頭骨鱗部,squamous part of temporal bone
+218,後頭骨,occipital bone
+219,乳様突起,mastoid process
+220,関節突起,condylar process
+221,鼻骨,nasal bone
+222,蝶形骨大翼,greater wing of sphenoid bone
+223,鱗状縫合,squamous suture
+224,プテリオン,pterion
+225,オトガイ孔,mental foramen
+226,冠状縫合,coronal suture
+227,蝶鱗縫合,sphenosquamous suture
+228,頬骨弓,zygomatic arch
+229,外耳道,external acoustic meatus
+230,乳様突起,mastoid process
+231,冠状縫合,coronal suture
+232,下顎角,angle of mandible
+233,鱗状縫合,squamous suture
+234,外後頭隆起,external occipital protuberance
+235,矢状縫合,sagittal suture
+236,イニオン,inion
+237,外後頭稜,external occipital crest
+238,頭頂骨,parietal bone
+239,乳様突起,mastoid process
+240,上項線,superior nuchal line
+241,前頭骨,frontal bone
+242,頭頂骨,parietal bone
+243,矢状縫合,sagittal suture
+244,後頭骨,occipital bone
+245,冠状縫合,coronal suture
+246,頚動脈管,carotid canal
+247,大後頭孔,foramen magnum
+248,歯槽弓,alveolar arch
+249,切歯窩,incisive fossa
+250,頚静脈孔,jugular foramen
+251,大口蓋孔,greater palatine foramen
+252,翼状突起外側板,lateral plate of pterygoid
+253,卵円孔,foramen ovale
+254,後頭顆,occipital condyle
+255,耳管溝,groove for auditory tube
+256,鋤骨,vomer
+257,翼突窩,pterygoid fossa
+258,蝶形骨体,body of sphenoid
+259,口蓋骨錐体突起,pyramidal process of palatine bone
+260,後鼻棘,posterior nasal spine
