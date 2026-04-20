@@ -1,10 +1,11 @@
 import type { GameState } from "@/types/game";
 
-const INITIAL_TIME = 60;
+const INITIAL_TIME = 90;
 
 function createInitialState(): GameState {
   return {
     scene: "title",
+    round: 1,
     score: 0,
     combo: 0,
     maxCombo: 0,

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "タイピング道場",
-  description: "ローマ字タイピングゲーム",
+  title: "秋打 akida",
+  description: "Beat akita with precise typing!",
 };
 
 export default function RootLayout({

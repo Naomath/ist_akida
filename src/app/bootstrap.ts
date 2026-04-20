@@ -11,6 +11,7 @@ import {
 import { renderWordView } from "@/render/wordView";
 import { renderUIView } from "@/render/uiView";
 import {
+  loadSceneFonts,
   renderTitleScene,
   renderStartScene,
   renderResultScene,
@@ -48,11 +49,7 @@ function gameLoop(
 }
 
 export async function bootstrap(canvas: HTMLCanvasElement): Promise<void> {
-  const words = await loadWordsFromCSV();
-  if (words.length === 0) {
-    console.error("CSVの読み込みに失敗しました。public/first.csv が存在するか確認してください。");
-  }
-  initWords(words);
+  await loadSceneFonts();
 
   const { app, layers } = await initRenderer(canvas);
 
@@ -62,21 +59,30 @@ export async function bootstrap(canvas: HTMLCanvasElement): Promise<void> {
   function showTitle(): void {
     layers.word.removeChildren();
     layers.ui.removeChildren();
-    renderTitleScene(layers.background, w, h, handleStart);
+    renderTitleScene(layers.background, w, h, handleSelectRound).catch(console.error);
   }
 
-  function handleStart(): void {
+  async function handleSelectRound(round: 1 | 2): Promise<void> {
     layers.background.removeChildren();
+    sound.bgmStop();
+
+    const filename = round === 1 ? "first.csv" : "second.csv";
+    const words = await loadWordsFromCSV(filename);
+    if (words.length === 0) {
+      console.error(`CSVの読み込みに失敗しました。public/${filename} を確認してください。`);
+      return;
+    }
+    initWords(words);
 
     setTimeout(() => {
       renderStartScene(layers.word, w, h);
 
       const audio = new Audio("/sound_data/start.mp3");
-      audio.play().catch(() => {/* 音声ファイルなし時は無視 */});
+      audio.play().catch(() => {});
 
       setTimeout(() => {
         layers.word.removeChildren();
-        startGame();
+        startGame(round);
       }, 1000);
     }, 300);
   }

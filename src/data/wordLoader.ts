@@ -1,7 +1,7 @@
 import type { WordMaster } from "@/types/game";
 
-export async function loadWordsFromCSV(): Promise<WordMaster[]> {
-  const res = await fetch("/first.csv");
+export async function loadWordsFromCSV(filename: string): Promise<WordMaster[]> {
+  const res = await fetch(`/${filename}`);
   const text = await res.text();
 
   const lines = text.replace(/\r/g, "").trim().split("\n");

@@ -15,6 +15,7 @@ export type ActiveWord = {
 
 export type GameState = {
   scene: Scene;
+  round: 1 | 2;
   score: number;
   combo: number;
   maxCombo: number;

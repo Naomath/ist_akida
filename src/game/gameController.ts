@@ -6,11 +6,12 @@ import { calcScore } from "@/game/scoring";
 import { sound } from "@/core/soundManager";
 
 
-export function startGame(): void {
+export function startGame(round: 1 | 2): void {
   resetState();
   setState((s) => ({
     ...s,
     scene: "playing",
+    round,
     activeWords: [spawnWord(null)],
   }));
   startListening(handleKey);
@@ -37,10 +38,6 @@ function handleKey(key: string): void {
   }
 
   if (key === "Backspace") {
-    setState((prev) => {
-      const next = prev.currentInput.slice(0, -1);
-      return { ...prev, currentInput: next, targetWordId: null };
-    });
     return;
   }
 
